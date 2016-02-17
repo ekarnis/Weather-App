@@ -1,0 +1,97 @@
+/*Desktop/tablet*/
+@media (Orientation: landscape)) {
+	#sun {
+			position:relative;
+    	top: -25vw;
+			left: 25vw;
+			width: 50vw;
+			height: 50vw;
+			background: yellow;
+			border-radius: 25vw;
+		}
+	#current_temperature {
+			position:absolute;
+			left: 25vw;
+			width: 50vw;
+		  top: 0vw;
+			text-align: center;
+			vertical-align: middle;
+			font-family: 'Roboto', sans-serif;
+    	font-size:15vw;
+    	color: white;
+			text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+	}
+	#current_conditions {
+			position:absolute;
+			left: 25vw;
+			width: 50vw;
+		  top: 16vw;
+			text-align: center;
+			vertical-align: middle;
+			font-family: 'Roboto', sans-serif;
+    	font-size:5vw;
+    	color: white;
+			text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+	}
+	#current_wind_speed {
+			position:absolute;
+			left: 25vw;
+			width: 50vw;
+		  top: 21vw;
+			text-align: center;
+			vertical-align: middle;
+			font-family: 'Roboto', sans-serif;
+    	font-size: 3vw;
+    	color: white;
+			text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	}
+	#current_humidity {
+			position:absolute;
+			left: 43vw;
+			width: 50vw;
+		  top: 7vw;
+			text-align: center;
+			vertical-align: middle;
+			font-family: 'Roboto', sans-serif;
+    	font-size: 3vw;
+    	color: white;
+			text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+#location_autocomplete {
+			position:absolute;
+			left: 32vw;
+			width: 50;
+		  top: 8vw;
+			text-align: center;
+			vertical-align: middle;
+			font-family: 'Roboto', sans-serif;
+    	font-size: 3vw;
+}
+#radio_form {
+			position:absolute;
+			left: 45vw;
+			width: 50;
+		  top: 14vw;
+			vertical-align: middle;
+			font-family: 'Roboto', sans-serif;
+    	font-size: 2vw;
+}
+table {
+			width: 100vw;
+			text-align: center;
+			
+}
+.label {
+		width: 15vw;
+		font-family: 'Roboto', sans-serif;
+  	font-size: 2vw;
+		
+}
+  header {
+		height: 45vw;
+	}
+}
+/*Desktop/tablet*/
+@media (Orientation: portrait) and (min-width: 700px) {

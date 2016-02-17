@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<!--<script type="text/javascript" src="auto.js"></script>-->
+<script type="text/javascript" src="wherethemagichappens.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCd-puB4MWm9dAQVGkrJtFWWdLRdaw8BMY	&signed_in=true&libraries=places&callback=initAutocomplete"
+        defer></script>
+
+<title>Weather</title>
+</head>
+<body>
+	<header>
+  	<p id="sun">dats not less than 900px :L</p>
+		<div id="current_temperature"></div>
+		<div id="current_conditions"></div>
+		<div id="current_wind_speed"></div>
+		<div id="current_humidity"></div>
+  </header>
+	
+	<form>
+ 		<input type="text" id="location_autocomplete" autofocus/>
+	</form>
+	
+	<form id="radio_form">
+  	<input type="radio" name="unit" id="celsiusbutton" onclick="todays_forcast()" checked> Celsius<br>
+  	<input type="radio" name="unit" id="fahrenheitbutton" onclick="todays_forcast()"> Fahrenheit<br>
+	</form>
+		
+	<table id="5_day_forecast">
+      <tr>
+        <td class="label" id ="day1"></td>
+        <td class="label" id ="day2"></td>
+				<td class="label" id ="day3"></td>
+        <td class="label" id ="day4"></td>
+				<td class="label" id ="day5"></td>
+      </tr>
+      <tr>
+        <td class="label" id ="day1_cond"></td>
+        <td class="label" id ="day2_cond"></td>
+				<td class="label" id ="day3_cond"></td>
+        <td class="label" id ="day4_cond"></td>
+				<td class="label" id ="day5_cond"></td>
+      </tr>
+      <tr>
+        <td class="label" id ="day1_temp"></td>
+        <td class="label" id ="day2_temp"></td>
+				<td class="label" id ="day3_temp"></td>
+        <td class="label" id ="day4_temp"></td>
+				<td class="label" id ="day5_temp"></td>
+      </tr>
+   </table>
+	
+	
+	
+	
+	<!--Sorry for the terrible hack-->
+	<div class="data" id="street_number"></div>
+  <div class="data" id="route"></div>
+	<div class="data" id="locality"></div>
+	<div class="data" id="administrative_area_level_1"></div>
+  <div class="data" id="postal_code"></div>
+  <div class="data" id="country"></div>
+
+</body>
+
+</html>
